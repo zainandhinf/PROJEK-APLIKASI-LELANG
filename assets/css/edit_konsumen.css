@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {}
+
+.kembali {
+    padding: 10px;
+}
+
+.kembali a {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.kembali a:hover {
+    background-color: #0062cc;
+}
+
+.kembali i {
+    margin-right: 10px;
+    font-size: 18px;
+    vertical-align: middle;
+}
+
+/*.kembali a {
+    padding: 5px;
+    background-color: #ccc;
+    color: #242026;
+    border-radius: 10px;
+    border: 1px solid #242026;
+    transition: .5s;
+    margin-right: 10px;
+    text-decoration: none;
+}*/
+
+/*.kembali input {
+    background-color: #fff;
+    padding: 5px;
+    background: #fff;
+    box-shadow: 0 5px 5px #166674;
+    border-radius: 10px;
+    border-style: none;
+}*/
+
+.user-profile {
+    display: flex;
+    height: 100vh;
+}
+
+.user-info {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    width: 400px;
+    height: 400px;
+    padding: 40px;
+    padding-top: 0;
+    padding-bottom: 40px;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    box-shadow: 0 15px 25px #166674;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.user-info h1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.profile {
+    overflow: hidden;
+    background-color: #166674;
+    width: 120px;
+    height: 120px;
+    translate: 140px;
+    border-radius: 50%;
+}
+
+.profile img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+}
+
+.user-info h2 {
+    text-align: center;
+}
+
+.user-info h4 {
+    text-align: center;
+}
+
+.second {
+    margin-top: 50px;
+    font-size: 12px;
+    color: #8390A2;
+}
+
+.third {
+    font-size: 25px;
+    text-align: center;
+}
+
+.third i {
+    padding: 10px;
+    background: #e5e5e5;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.user-detail {
+    position: absolute;
+    top: 50%;
+    left: 73%;
+    width: 500px;
+    height: 400px;
+    padding: 40px;
+    padding-top: 0;
+    padding-bottom: 40px;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    box-shadow: 0 15px 25px #166674;
+    border-radius: 10px;
+}
+
+.user-detail h1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+table tr {
+    margin: 20px;
+}
+
+table tr td {}
+
+.edit-profile td input {
+    border-radius: 10px;
+    height: 10px;
+    position: relative;
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    margin-left: 50px;
+    color: #242026;
+    border-top: 2px solid #242026;
+    border-bottom: 4px solid #242026;
+}
+
+.button td {
+    padding-left: 0;
+    left: 50%;
+    padding: 20px;
+}
+
+.button td input {
+    border-radius: 10px;
+    background-color: #166674;
+    padding: 10px 20px;
+    margin-left: -100px;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    transition: .5s;
+    letter-spacing: 4px;
+    border: 1px solid #166674;
+}
+
+.button td input:hover {
+    background-color: #ccc;
+}
+
+.user-info-lelang {
+    position: absolute;
+    top: 160%;
+    left: 6%;
+    width: 1009px;
+    height: 400px;
+    padding: 40px;
+    padding-top: 0;
+    padding-bottom: 40px;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    box-shadow: 0 15px 25px #166674;
+    border-radius: 10px;
+}

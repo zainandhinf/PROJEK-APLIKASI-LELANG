@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+*,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    height: 200%;
+    width: 100%;
+}
+
+.admin-page {}
+
+.navbar {
+    border-top-right-radius: 5px;
+    background-color: #166674;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    width: 50px;
+    transition: 2s ease;
+    overflow: hidden;
+    white-space: nowrap;
+    color: #fff;
+    box-shadow: 0px 0px 10px #666666;
+}
+
+.navbar:hover {
+    width: 200px;
+}
+
+.nav_item {
+    font-size: 22px;
+    padding: 18px;
+    list-style-type: none;
+}
+
+.nav_item:hover {
+    background: #666666;
+    transition: 3s ease;
+}
+
+.fa {
+    margin-right: 22px;
+}
+
+.bag-atas {
+    background-color: #1F8A70;
+    width: 1000px;
+    height: 20vh;
+    overflow: visible;
+}
+
+.konten {
+    background-color: #fff;
+    height: 80vh;
+}

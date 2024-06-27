@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {}
+
+svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    display: block;
+    background-color: #166674;
+    background-image: linear-gradient(to bottom, #166674, #166674);
+}
+
+.login-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    padding: 40px;
+    padding-top: 0;
+    padding-bottom: 40px;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    box-shadow: 0 15px 25px #166674;
+    border-radius: 10px;
+}
+
+.login-box img {
+    width: 50%;
+    margin-left: -30px;
+    padding: 0;
+    object-fit: cover;
+}
+
+.login-box h2 {
+    margin: 0 0 30px;
+    padding-bottom: 30px;
+    color: #242026;
+    text-align: center;
+}
+
+.login-box .signup {
+    margin-top: 40px;
+}
+
+.login-box .user-box input {
+    position: relative;
+    width: 100%;
+    padding: 0;
+    font-size: 16px;
+    color: #242026;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #242026;
+    outline: none;
+    background: transparent;
+}
+
+.login-box .user-box label {
+    position: relative;
+    left: 0;
+    top: -60px;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.login-box .user-box input:focus~label,
+.login-box .user-box input:valid~label {
+    top: -85px;
+    left: 0;
+    color: #166674;
+    font-size: 12px;
+}
+
+.petugas a {
+    text-decoration: none;
+    color: white;
+}
+
+#submit {
+    padding: 10px 20px;
+    color: #1F8A70;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    letter-spacing: 4px;
+    border: 1px solid #166674;
+    margin: auto;
+}
+
+#submit:hover {
+    background: #166674;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow:
+        0 0 5px #166674,
+        0 0 25px #166674,
+        0 0 50px #166674,
+        0 0 100px #166674;
+}
+
+.button-form {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+
+#register {
+    font-size: 14px;
+    text-decoration: none;
+    color: #1F8A70;
+    margin: auto;
+    width: 60%;
+    text-align: center;
+}
+
+#register a {
+    margin: auto;
+    color: #166674;
+    text-decoration: none;
+}
